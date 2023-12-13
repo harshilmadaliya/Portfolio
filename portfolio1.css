@@ -1,0 +1,279 @@
+@font-face {
+    font-family: "Anurati-Regular";
+    src: url("https://db.onlinewebfonts.com/t/a21764905c623777a48ec557b4229c22.eot");
+    src: url("https://db.onlinewebfonts.com/t/a21764905c623777a48ec557b4229c22.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/a21764905c623777a48ec557b4229c22.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/a21764905c623777a48ec557b4229c22.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/a21764905c623777a48ec557b4229c22.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/a21764905c623777a48ec557b4229c22.svg#Anurati-Regular")format("svg");
+}
+html{
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(169, 167, 167);
+}
+.loader{
+    width: 100vw;
+    height: 100vh;
+    z-index: 99;
+    position: fixed;
+    background-color: rgb(212, 211, 211);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader h1{
+    font-size: 50px;
+}
+hr {
+    border-color: black;
+    margin:20px 150px;
+}
+.type-animation{
+    display: flex;
+    justify-content: center;
+}
+
+.name-photo {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        margin-bottom: 30px;
+        margin: 150px auto;
+    }
+
+
+.face-photo img {
+    width: 200px;
+    display: inline;
+    margin: 30px;
+    border-radius: 50px 100px;
+}
+
+.name {
+    margin-left: 0px;
+}
+
+.name h2 {
+    float: right;
+    /* font-size: 80px; */
+    font-family: "Anurati-Regular";
+    /* font-stretch: 300%; */
+    text-shadow: 7px 7px 7px black;
+}
+.name h2 span{
+    margin: 5px;
+}
+.name h1 span {
+    margin: 8px;
+}
+.name h1 {
+    font-family: "Varino Normal-Regular";
+    font-size: 70px;
+    text-shadow: 20px 20px 21px black;
+}
+nav {
+    display: flex;
+}
+.navbar {
+    margin: auto;
+    margin-top: 20px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+.navbar ul li a {
+    font-size: 20px;
+    font-family: "Elianto Regular";
+    margin-right: 12px;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+#About{
+    display: block;
+    /* border: 2px solid red; */
+}
+.language {
+    /* border: 2px solid blueviolet; */
+    width: 100%;
+    /* height: 110vh; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.language>div:hover{
+    background-color: rgba(58, 56, 60, 0.454);
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px 5px rgba(58, 56, 60, 0.454);
+}
+.skill{
+    width: 68px;
+    height: 100%;
+    margin: 50px auto;
+}
+.skill p{
+    font-size: 30px;
+    font-family: "OmegaCentauri";
+}
+.photo {
+    margin: auto;
+}
+.fixed,#text{
+    font-family: "aspace";
+}
+
+.html,
+.css,
+.javascript,
+.node-js,
+.express,
+.python,
+.java {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 150px;
+    margin: auto;
+    width: 300px;
+    height: 145px;
+    overflow: auto;
+    min-height: 100px;
+    min-width: 110px;
+
+}
+
+.text p {
+    padding: 6px 65px;
+    text-align: center;
+    font-family: "Elianto Regular";
+}
+
+.html svg,
+.css svg,
+.javascript svg,
+.node-js svg,
+.express svg,
+.python svg ,
+.java svg{
+    height: 60px;
+    width: 60px;
+    margin: 15px 0px;
+}
+#Email{
+    width: 100%;
+    height: 100vh;
+    display: block;
+    /* border: 2px solid cadetblue; */
+}
+.Contect{
+    margin: 50px;
+    padding: 6px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Nebula";
+}
+.socialmedia{
+    /* border: 2px solid black; */
+    width: 100%;
+    /* height: 10vh; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.instagram,.twitter,.linkedin,.facebook{
+    /* border: 2px solid pink; */
+    margin: 6px;
+    height: 100px;
+    /* width: 500px; */
+}
+.social-name p {
+    text-align: center;
+    font-size: bold;
+}
+
+.instagram svg,.twitter svg,.linkedin svg,.facebook svg{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.edetile{
+    /* border: 2px solid yellow; */
+    text-align: center;
+    font-size: 30px;
+    font-family: "Nebula";
+}
+.adddetiles{
+    /* border: 2px solid salmon; */
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.addname,.addnote{
+    margin: 10px auto;
+}
+#ename,#note{
+    background-color: rgba(34, 33, 34, 0.565);
+    border-radius: 6px;
+    width: 200px;
+}
+#note{
+    width: 200px;
+    height: 100px;
+}
+button{
+    margin: 10px auto;
+    background-color: rgba(34, 33, 34, 0.565);
+    border-radius: 4px;
+}
+button p{
+    font-family: "Elianto Regular";
+    padding: 12px;
+}
+
+@media (max-width:426px) and (min-width:0px) {
+    .face-photo img {
+        width: 100px;
+        display: inline;
+        border-radius: 25px 50px;
+    }
+    .name h2 {
+        float: right;
+        font-size: 20px;
+    }
+    .name h1 {
+        font-size: 30px;
+        text-shadow: 10px 10px 12px black;
+    }
+    hr{
+        margin: 30px 50px;
+    }
+}
+@media (max-width:770px) and (min-width:426px){
+    .face-photo img {
+        width: 150px;
+        display: inline;
+        border-radius: 25px 50px;
+    }
+    .name h2 {
+        float: right;
+        font-size: 45px;
+    }
+    .name h1 {
+        font-size: 80px;
+    }
+}
